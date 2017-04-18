@@ -18,8 +18,5 @@ class ChefsShowTest < ActionDispatch::IntegrationTest
     assert_match @recipe.description, response.body
     assert_match @recipe2.description, response.body
     assert_match @chef.chefname, response.body
-    
   end
-  
-  
 end
