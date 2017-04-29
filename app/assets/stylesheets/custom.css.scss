@@ -1,8 +1,9 @@
+// @import url("//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css");
 // $navbar-default-bg: #073B15;
 // $navbar-default-bg: #232628;
 $navbar-default-bg: #333333;
-@import "bootstrap";
 @import "bootstrap-sprockets";
+@import "bootstrap";
 
 .center {
   text-align: center;  
@@ -162,5 +163,8 @@ footer ul li {
   overflow: auto;
 }
 
+.liking {
+  padding-right: 10px;
+}
 
 
